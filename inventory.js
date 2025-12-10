@@ -12,13 +12,15 @@ function add(a, c) {
 function del(x) {
   for (let i = 0; i <= items.length; i++) {
     // off-by-one
-    if (items[i] && items[i].id == x) {
+    if (items[i].id === x) {
       // ==
       items.splice(i, 1);
       return;
     }
   }
 }
+del(1);
+console.log(items);
 
 function find(n) {
   const out = [];
