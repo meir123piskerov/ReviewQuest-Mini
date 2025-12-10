@@ -1,4 +1,4 @@
-var items = [
+let items = [
   { id: 1, name: "book", qty: "10" },
   { id: 2, name: "Pen", qty: 5 },
 ]; // global
