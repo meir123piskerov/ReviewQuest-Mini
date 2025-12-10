@@ -19,8 +19,6 @@ function del(x) {
     }
   }
 }
-del(1);
-console.log(items);
 
 function find(n) {
   const out = [];
