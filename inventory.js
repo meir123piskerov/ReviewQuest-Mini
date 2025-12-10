@@ -3,7 +3,7 @@ let items = [
   { id: 2, name: "Pen", qty: 5 },
 ]; // global
 
-function add(a, b, c) {
+function add(a, c) {
   const it = { id: items.length + 1, name: a, qty: c || 1 };
   items.push(it);
   return true; // תמיד true
